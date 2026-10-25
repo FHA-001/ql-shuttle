@@ -19,9 +19,9 @@ p{max-width:60ch}
 .row{display:flex;gap:1rem;flex-wrap:wrap}
 /* nav */
 .nav{position:fixed;inset:0 0 auto;z-index:50;color:#fff;transition:background .3s}
-.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px;gap:1rem}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:160px;gap:1rem}
 .nav.solid{background:rgba(21,21,21,.93);backdrop-filter:blur(10px)}
-.logo{font:800 1.5rem var(--f1)}.logo img{height:36px}
+.logo{font:800 1.5rem var(--f1)}.logo img{height:150px}
 .menu{display:flex;gap:1.8rem;font-size:.95rem}
 .menu a{opacity:.7;position:relative}
 .menu a:hover,.menu a[aria-current]{opacity:1}
