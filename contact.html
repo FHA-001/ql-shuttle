@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact and Book | QL Shuttle</title>
+<meta name="description" content="Book the daily shuttle, a luxury car or a concierge service in Abuja.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav" id="nav"><div class="wrap">
+  <a class="logo" href="index.html"><img src="images/logo.png" alt="QL logo" onerror="this.replaceWith(Object.assign(document.createElement('span'),{textContent:'QL'}))"></a>
+  <nav class="menu" id="menu">
+    <a href="index.html">Home</a><a href="shuttle.html">Shuttle</a><a href="luxury.html">Luxury Services</a><a href="rentals.html">Car Rentals</a><a href="contact.html" aria-current="page">Contact</a>
+  </nav>
+  <a class="btn fill" href="contact.html">Book</a>
+  <button class="burger" id="burger" aria-label="Menu">&#9776;</button>
+</div></header>
+
+<section class="phead dark">
+  <div class="wrap">
+    <h1 class="in">Book or ask.</h1>
+    <p class="lead in" style="--i:2">Choose the way that suits you. We reply fastest on WhatsApp.</p>
+    <div class="row in" style="--i:3"><a class="btn fill" data-wa="Hello QL, I would like to make an enquiry.">WhatsApp us</a><a class="btn" data-tel>Call us</a></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap split rv">
+    <div>
+      <h2>Send a booking request.</h2>
+      <p class="lead mute">Fill in the form and it opens WhatsApp with your details ready to send.</p>
+      <ul class="list">
+        <li><span>Phone</span><span class="mute">+234 XXX XXX XXXX</span></li>
+        <li><span>Email</span><span class="mute">hello@example.com</span></li>
+        <li><span>Location</span><span class="mute">Abuja, Nigeria</span></li>
+      </ul>
+    </div>
+    <form id="book">
+      <label>Full name<input name="Name" required autocomplete="name"></label>
+      <label>Phone number<input name="Phone" type="tel" required autocomplete="tel"></label>
+      <label>Service
+        <select name="Service" required>
+          <option value="">Choose a service</option>
+          <option>Daily shuttle subscription</option>
+          <option>Luxury chauffeur</option>
+          <option>Self drive car rental</option>
+          <option>Airport transfer</option>
+          <option>VIP concierge</option>
+          <option>Executive security</option>
+        </select>
+      </label>
+      <label>Date<input name="Date" type="date"></label>
+      <label>Pickup and destination<input name="Route" placeholder="From and to"></label>
+      <label>Anything else<textarea name="Notes" rows="3"></textarea></label>
+      <button class="btn k" type="submit">Send on WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<footer class="dark"><div class="wrap"><span>&copy; <span data-year></span> QL Shuttle. Moving differently.</span><span class="mute">Abuja, Nigeria</span></div></footer>
+<a class="wa" data-wa="Hello QL, I would like to make an enquiry.">WhatsApp</a>
+<script src="js/main.js"></script>
+</body>
+</html>
