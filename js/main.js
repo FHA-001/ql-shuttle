@@ -1,5 +1,5 @@
 // EDIT THESE: WhatsApp number in international format, digits only (no +)
-const CFG = { whatsapp: '234XXXXXXXXXX', phone: '+234XXXXXXXXXX' };
+const CFG = { whatsapp: '2348133697669', phone: '+2348133697669' };
 
 document.querySelectorAll('[data-wa]').forEach(a => {
   a.href = 'https://wa.me/' + CFG.whatsapp + '?text=' + encodeURIComponent(a.dataset.wa);
